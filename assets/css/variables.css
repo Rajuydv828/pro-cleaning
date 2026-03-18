@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  --color-green: #33e60b;
+  --color-red: #e62f0b;
+  --color-blue: #0b2fe6;
+
+  /* theme colors*/
+
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-red);
+}

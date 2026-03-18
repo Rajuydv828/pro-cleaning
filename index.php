@@ -1,23 +1,6 @@
-<!-- hero section -->
+<!-- include header, site content, and footer -->
 <?php
-$home_sections = [
-    'banner',
-    'services',
-];
-?>
-<!-- include header -->
-<?php
-require_once 'layout/header.php';
-?>
-<!-- site content -->
-<main class="site-content">
-    <?php
-    foreach ($home_sections as $section) {
-        require_once "sections/{$section}.php";
-    }
-    ?>
-</main>
-<!-- include footer -->
-<?php
-require_once 'layout/footer.php';
+require_once './header.php';
+require_once './layout/main-content.php';
+require_once './footer.php';
 ?>
